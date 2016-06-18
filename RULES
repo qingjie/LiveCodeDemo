@@ -1,0 +1,8 @@
+{
+  "rules": {
+    ".read": true,
+      "$message" : {
+    		".write": "newData.hasChildren(['text','user'])"
+  		}
+  }
+}
